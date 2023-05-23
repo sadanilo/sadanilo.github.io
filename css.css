@@ -27,8 +27,8 @@ h4 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 600px;
-	height: 800px;
+	width: 400px;
+	height: 520px;
 	background: #e0e1dc;
 	transform-style: preserve-3d;
 	transform: translate(-50%,-50%) perspective(2000px);
@@ -83,8 +83,8 @@ h4 {
 }
 
 .card .imgBox img {
-	min-width: 600px;
-	max-height: 800px;
+	width: 400px;
+	height: 520px;
 }
 
 .card:hover .imgBox {
@@ -102,9 +102,22 @@ h4 {
 	top: 0;
 	left: 0;
 	box-sizing: border-box;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 90px;
 	z-index: -1;
-	margin-top: 70px;
+	margin-top: 0;
+}
+
+.card .details .text-box {
+	margin-top: 200px;
+}
+
+.card .details img{
+	width: 200px;
+	height: 260px;
+	position: absolute;
+	top: 0;
+	left: 130;
+	margin: 0;
 }
 
 .card .details p {
@@ -115,6 +128,7 @@ h4 {
 }
 
 .card .details h4 {
+	margin-top: 50px;
 	text-align: center;
 }
 
